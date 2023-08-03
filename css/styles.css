@@ -1,0 +1,242 @@
+ul#index {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#message {
+    height: 10em;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+#header {
+    background-color: rgb(7, 25, 82);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(151, 254, 237);
+    margin: 0;
+}
+
+header {
+    font-family: 'Dancing Script', cursive;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(53, 162, 159);
+}
+
+.nav-link {
+    color: rgb(151, 254, 237) !important;
+}
+
+.nav-link:hover {
+    color: rgb(53, 162, 159) !important;
+}
+
+.article, .administration {
+    background-color: rgb(11, 102, 106);
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+p {
+    color: white;
+}
+
+time {
+    color: white;
+    font-style: italic;
+}
+
+.article-header, .administration-header {
+    color: rgb(151, 254, 237);
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.article-header:hover {
+    color: rgb(53, 162, 159);
+    text-decoration: none;
+}
+
+.categories {
+    font-style: italic;
+    color: white;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.page-item {
+    width: 100px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.page-link {
+    border-radius: 20px !important;
+    text-align: center;
+    border: 0;
+    color: rgb(7, 25, 82);
+}
+
+.page-link:hover {
+    background-color: rgb(11, 102, 106);
+    color: rgb(53, 162, 159);
+}
+
+footer svg {
+    margin: 4px;
+}
+
+footer {
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-color: rgb(7, 25, 82) !important;
+}
+
+.text-body-secondary {
+    color: rgb(7, 25, 82);
+}
+
+.text-body-secondary:hover {
+    color: rgb(11, 102, 106);
+}
+
+.form {
+    background-color: rgb(11, 102, 106);
+    border-radius: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 300px;
+    display: inline-block;
+    align-items: center;
+}
+
+.form h2 {
+    color: rgb(151, 254, 237);
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+label {
+    font-style: italic;
+    color: white;
+}
+
+.form-center {
+    display: flex;
+    justify-content: center;
+}
+
+.btn, .form-control {
+    border-radius: 20px;
+}
+
+.btn {
+    color: rgb(7, 25, 82);
+    width: 100px;
+    margin: 4px;
+    border: 0;
+}
+
+.btn:hover {
+    background-color: rgb(53, 162, 159);
+}
+
+.button-to-submit {
+    display: flex;
+    justify-content: center;
+}
+
+.new-article-link {
+    color: rgb(151, 254, 237) !important;
+    margin: 0;
+}
+
+.new-article-link:hover, .title:hover {
+    color: rgb(53, 162, 159) !important;
+    text-decoration: none;
+}
+
+th {
+    color: rgb(151, 254, 237);
+    font-style: italic;
+}
+
+.title {
+    color: white;
+}
+
+.admin-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.edit, .delete, .edit-img {
+    color: rgb(7, 25, 82) !important;
+}
+
+.edit:hover, .delete:hover, .edit-img:hover {
+    color: rgb(7, 25, 82) !important;
+    text-decoration: none;
+}
+
+form .upload {
+	position: relative;
+    overflow: hidden;
+	width: 100%;
+    height: 36px;
+	padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+	text-align: center;
+	background: rgb(53, 162, 159);
+	border-radius: 20px;
+}
+
+form .upload input[type="file"] {
+	position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+	height: 100%;
+    cursor: pointer;
+    opacity: 0;
+}
+
+form .upload label[for="file"] {
+    margin: 0;
+}
+
+form .upload label:before {
+	content: "\21EA";
+}
+
+.image {
+    max-width: 260px;
+    margin-bottom: 8px;
+}
+
+.button-to-edit {
+    width: 100% !important;
+}
+
+.image-in-article {
+    width: 50%;
+}
